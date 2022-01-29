@@ -40,6 +40,8 @@ force-remote-dns
 >
 >DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 
+----------------------------
+
 **基于IP的规则**
 IP-CIDR
 
@@ -52,7 +54,7 @@ IP-CIDR
 >IP-CIDR,127.0.0.1/8,DIRECT
 
 如果请求的IP地址匹配指定范围，则规则匹配。
-
+----------------------------
 **GEOIP**
 
 >GEOIP,US,DIRECT
@@ -60,7 +62,7 @@ IP-CIDR
 >GEOIP,CN,DIRECT
 
 **如果 GeoIP 测试结果符合指定的国家/地区代码，则规则匹配。
-
+----------------------------
 **基于 IP 的规则选项**
 
 no-resolve
