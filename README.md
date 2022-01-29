@@ -10,6 +10,16 @@
 
 选项条件：见下文。
 
+规则结尾：
+
+>#其他未匹配到规则的走代理
+>
+>FINAL,PROXY
+
+>#其他未匹配到规则的走直连
+>
+>FINAL,DIRECT
+
 **基于域名的规则**
 
 >`DOMAIN,www.apple.com,Proxy`
